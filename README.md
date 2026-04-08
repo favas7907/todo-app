@@ -1,124 +1,20 @@
-# 📝 Todo App
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-A modern, responsive, and production-style Todo application built with **React 18** and custom CSS.  
-Designed with a strong focus on **UI/UX polish, smooth interactions, and clean architecture**, while keeping the codebase lightweight and dependency-free.
+# Run and deploy your AI Studio app
 
----
+This contains everything you need to run your app locally.
 
-## 🚀 Live Demo
-👉 https://YOUR_USERNAME.github.io/todo-app
+View your app in AI Studio: https://ai.studio/apps/93e741ba-d8c6-4ccb-8dd1-f0eefe221d54
 
----
+## Run Locally
 
-## ✨ Features
+**Prerequisites:**  Node.js
 
-- ➕ Add new tasks instantly
-- 🗑️ Delete tasks with smooth animations
-- ✔️ Mark tasks as completed / active toggle
-- 🔍 Filter tasks: All / Active / Completed
-- 🚩 Priority levels: High / Medium / Low
-- 📅 Due date support for each task
-- 📊 Live task counter (Active + Completed)
-- 🧹 Clear all completed tasks option
-- 💾 Persistent storage using localStorage
-- 🎬 Smooth animations (add / delete / transitions)
-- 📱 Fully responsive (mobile-first design)
 
----
-
-## 🎨 UI / UX Design
-
-- 🌌 Dark themed interface with depth and modern styling
-- 🎯 CSS Variables for complete theme control
-- 💜 Accent-based design with indigo/violet glow effects
-- 🧊 Layered UI surfaces using shadows and depth
-- ✍️ Clear typography hierarchy for readability
-- 🖱️ Hover, active, and focus states on all elements
-- ⚡ Smooth micro-interactions for premium feel
-
----
-
-## 🛠️ Tech Stack
-
-- React 18 (Functional Components)
-- JavaScript (ES6+)
-- CSS3 (Custom Styling, No frameworks)
-- LocalStorage API
-- HTML5 Semantic Elements
-
----
-
-## 📁 Project Structure
-
-src/
-├── index.js
-├── App.jsx
-├── App.css
-├── hooks/
-│   └── useTasks.js
-└── components/
-    ├── Header.jsx
-    ├── TaskInput.jsx
-    ├── FilterBar.jsx
-    ├── TaskList.jsx
-    └── TaskItem.jsx
-
----
-
-## ⚙️ Getting Started
-
-### Clone the repository
-git clone https://github.com/YOUR_USERNAME/todo-app.git
-
-### Navigate into project
-cd todo-app
-
-### Install dependencies
-npm install
-
-### Run locally
-npm start
-
----
-
-## 🚀 Build for Production
-npm run build
-
----
-
-## 🌐 Deployment (GitHub Pages)
-
-npm install gh-pages --save-dev
-
-Add to package.json:
-"homepage": "https://YOUR_USERNAME.github.io/todo-app",
-
-Add scripts:
-"predeploy": "npm run build",
-"deploy": "gh-pages -d build"
-
-Deploy:
-npm run deploy
-
----
-
-## 🎯 Future Improvements
-
-- Drag & drop task sorting
-- Task categories / tags
-- Search functionality
-- Dark/light theme toggle
-- Backend sync (Firebase / Node API)
-
----
-
-## 👨‍💻 Author
-
-Favas M  
-Frontend Developer | React Enthusiast | UI/UX Focused Builder
-
----
-
-## 📄 License
-
-MIT License
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
